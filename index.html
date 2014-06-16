@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.theme-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.inline-svg-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.inline-png-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.external-png-1.4.2.css">
+    <script src="js/jquery-2.1.0.js"></script>
+    <script src="js/jquery.mobile-1.4.2.js"></script>
+    <script src="js/strophe.js"></script>
+    <script src="js/index.js"></script>
+    <title>XMPP Connection</title>
+</head>
+<body>
+<div data-role="page" id="page_main" style="margin-top: 20px">
+    <div data-role="header">
+        <h1>openfire connection</h1>
+    </div>
+    <div data-role="content">
+        <div id="button-area">
+            <input type="button" value="Connect" onclick="connect_server();"/>
+            <input type="button" value="Disconnect" onclick="disconnect_server();"/>
+        </div>
+        <div id="message"></div>
+    </div>
+</div>
+
+</body>
+</html>
